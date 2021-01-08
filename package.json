@@ -1,12 +1,12 @@
 {
   "name": "beqik2-electron",
   "productName": "beqik2-electron",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "BeQIK 2 Electron Shell",
   "main": "src/index.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/chuckd/beqik2-electron.git"
+    "type": "git",
+    "url": "https://github.com/chuckd/beqik2-electron.git"
   },
   "scripts": {
     "start": "electron-forge start",
