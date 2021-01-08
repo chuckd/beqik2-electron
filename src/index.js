@@ -19,6 +19,8 @@ app.commandLine.appendSwitch('ppapi-flash-path', path.join(__dirname, pluginName
 // Optional: Specify flash version, for example, v17.0.0.169
 app.commandLine.appendSwitch('ppapi-flash-version', '31.0.0.108')
 
+require('update-electron-app')()
+
 app.whenReady().then(() => {
   const win = new BrowserWindow({
     width: 800,
