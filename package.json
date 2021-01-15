@@ -1,7 +1,7 @@
 {
   "name": "beqik2-electron",
   "productName": "beqik2-electron",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "BeQIK 2 Electron Shell",
   "main": "src/index.js",
   "repository": {
@@ -61,7 +61,6 @@
     }
   },
   "dependencies": {
-    "@electron-forge/publisher-github": "^6.0.0-beta.54",
     "electron-squirrel-startup": "^1.0.0",
     "update-electron-app": "^2.0.1"
   },
@@ -71,6 +70,7 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.54",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
     "@electron-forge/maker-zip": "^6.0.0-beta.54",
+    "@electron-forge/publisher-github": "^6.0.0-beta.54",
     "electron": "11.1.1"
   }
 }
