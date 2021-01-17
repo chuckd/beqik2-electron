@@ -1,7 +1,7 @@
 {
   "name": "beqik2-electron",
   "productName": "beqik2-electron",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "BeQIK 2 Electron Shell",
   "main": "src/index.js",
   "repository": {
